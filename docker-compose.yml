@@ -1,0 +1,8 @@
+services:
+  web:
+    image: vicarcbar/salutacio:10884442
+    container_name: salutacio-compose
+    ports:
+      - "8080:5000"
+    environment:
+      MISSATGE: Hola
